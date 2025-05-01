@@ -79,16 +79,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-muted-foreground">hello@slashzero.com</p>
+                    <p className="text-muted-foreground">hr@slashzero.in</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
                     <Phone className="h-5 w-5" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold">Phone</h3>
-                    <p className="text-muted-foreground">+91-XXXXXXXXXX</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

@@ -106,8 +106,7 @@ export default function Footer() {
             <h3 className="mb-4 text-sm font-semibold">Contact</h3>
             <address className="not-italic">
               <p className="text-sm text-muted-foreground">Hyderabad, India</p>
-              <p className="text-sm text-muted-foreground">hello@slashzero.com</p>
-              <p className="text-sm text-muted-foreground">+91-XXXXXXXXXX</p>
+              <p className="text-sm text-muted-foreground">hr@slashzero.in</p>
             </address>
 
             <div className="mt-6">

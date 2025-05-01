@@ -4,12 +4,13 @@ import type React from "react"
 
 import { useState } from "react"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { useToast } from "@/components/ui/use-toast"
+
 import { Mail, Phone, MapPin } from "lucide-react"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card"
+import { Textarea } from "../../components/ui/textarea"
+import { Button } from "../../components/ui/button"
+import { Input } from "../../components/ui/input"
+import { useToast } from "../../components/ui/use-toast"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({

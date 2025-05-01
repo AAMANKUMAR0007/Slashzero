@@ -3,10 +3,10 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"  // Use Next.js Image component
-import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { usePathname } from "next/navigation"
-import { cn } from "@/lib/utils"
+import { cn } from "../lib/utils"
+import { Button } from "./ui/button"
 
 const navigation = [
   { name: "Home", href: "/" },

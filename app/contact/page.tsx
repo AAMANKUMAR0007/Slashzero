@@ -10,7 +10,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../..
 import { Textarea } from "../../components/ui/textarea"
 import { Button } from "../../components/ui/button"
 import { Input } from "../../components/ui/input"
-import { useToast } from "../../components/ui/use-toast"
+import { useToast } from "../../hooks/use-toast"
+
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
